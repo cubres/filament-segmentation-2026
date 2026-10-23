@@ -4,7 +4,8 @@
 
 - Add area and dark-contrast pruning for each image.
 - Record held-out PQ of 0.1297, up from 0.0963, across 192 images and 307 annotator records.
-- Record 2,381 output rows. Official score: pending.
+- Record 2,381 output rows.
+- Verify completed official submission 57570521 with public score **0.12**, linked to Version 3 and its native score badge. Version 2 scored 0.08.
 
 ## 2026-10-23
 

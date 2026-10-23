@@ -4,7 +4,9 @@
 
 Version 3 keeps components with area >= 400 px. It then keeps the 16 components with the highest mean dark contrast per image.
 Held-out PQ rose from 0.0963 to 0.1297 across 192 images and 307 annotator records.
-The output has 2,381 rows. Official score: pending.
+The output has 2,381 rows.
+At 19:33 UTC on 2026-10-23, submission 57570521 was `COMPLETE` with the raw public score `0.12`.
+The native notebook badge also showed `0.12` for Version 3. See the [score receipt](../evidence/official-score-57570521.json).
 The [summary table](../evidence/v3-validation-summary.csv) and [pruning ablation](../evidence/v3-pruning-ablation.csv) contain aggregate results.
 The [PQ chart](../assets/v3-validation-pq.png) shows the measured values. The aggregate receipt records the output hash and runtime.
 

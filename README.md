@@ -9,7 +9,8 @@ An original CPU baseline for the [Filament Segmentation 2026 competition](https:
 Find each dark filament in a solar image. Give each filament its own mask.
 This project uses image pixels and the competition's training masks. It adds no outside labels or weights.
 
-**Official public score: 0.08. Submission 57568420 completed on 2026-10-23 and is linked to notebook Version 2.**
+**Official public score: 0.12. Submission 57570521 completed on 2026-10-23 and is linked to notebook Version 3.**
+Version 2 scored 0.08 (submission 57568420).
 The exact submission row and native notebook score badge were verified.
 This is a working baseline. No competitive rank is claimed.
 
@@ -20,7 +21,7 @@ The server assigned this notebook identity. We preserve it exactly.
 
 Version 3 keeps components with area >= 400 px. It then keeps the 16 components with the highest mean dark contrast per image.
 Held-out PQ rose from 0.0963 to 0.1297 across 192 images and 307 annotator records.
-The output has 2,381 rows. Official score: pending.
+The output has 2,381 rows. Official public score: **0.12** (submission 57570521, [evidence](evidence/official-score-57570521.json)).
 See [Version 3 validation](docs/validation.md#version-3) and [aggregate evidence](evidence/v3-local-validation.json).
 
 ## What we add
