@@ -25,5 +25,5 @@
 - Add synthetic contract checks and generated decorative artwork.
 - Publish source and aggregate evidence without competition data.
 
-The official public score is 0.08. The separate 16-image held-out PQ is 0.08902624179349382.
+The Version 2 official public score is 0.08. The separate 16-image held-out PQ is 0.08902624179349382.
 This is a verified baseline, not a claim of a competitive rank.

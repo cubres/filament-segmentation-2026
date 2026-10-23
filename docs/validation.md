@@ -100,5 +100,5 @@ The host source is not redistributed here, so it is not part of the seven public
 
 Four held-out images are too few for a strong performance claim.
 The local check does not establish generalization, competition rank, or a complete valid submission.
-The full Kaggle run is complete. Its notebook-linked submission completed with official public score 0.08.
+Version 2 completed with official public score 0.08. Version 3 completed with official public score 0.12.
 The exact completed submission, notebook version, file, and native score badge were verified.
