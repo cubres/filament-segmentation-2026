@@ -1,0 +1,27 @@
+{
+  "version": 3,
+  "configs": [
+    {
+      "name": "core_growth_050_130",
+      "pq": 0.09627698874468096,
+      "tp": 746,
+      "fp": 7425,
+      "fn": 992,
+      "images": 192,
+      "annotator_records": 307
+    },
+    {
+      "name": "core_growth_050_130_top16_area400",
+      "pq": 0.1296833791405989,
+      "tp": 555,
+      "fp": 3206,
+      "fn": 1183,
+      "images": 192,
+      "annotator_records": 307
+    }
+  ],
+  "submission_rows": 2381,
+  "submission_sha256": "913c3d3aef81659572a0802fef97f3798b64779ae237209a4c551541c0c85a95",
+  "runtime_seconds": 157.55,
+  "source_sha256": "cf8028e70523300aa7f9419382ccf0826b7d8f4f91866a2a6cb8c929c46cb698"
+}

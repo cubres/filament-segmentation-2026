@@ -1,0 +1,4 @@
+rule,validation_pq,images,annotator_records
+baseline,0.0963,192,307
+top12_area400,0.1246,192,307
+top16_area400,0.1297,192,307

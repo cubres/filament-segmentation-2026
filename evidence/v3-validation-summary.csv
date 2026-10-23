@@ -1,0 +1,3 @@
+config,pq,tp,fp,fn,images,annotator_records
+core_growth_050_130,0.09627698874468096,746,7425,992,192,307
+core_growth_050_130_top16_area400,0.1296833791405989,555,3206,1183,192,307

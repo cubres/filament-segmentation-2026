@@ -16,6 +16,13 @@ This is a working baseline. No competitive rank is claimed.
 Open the [public Kaggle notebook](https://www.kaggle.com/code/prvsiyan/notebook24a4dce69e).
 The server assigned this notebook identity. We preserve it exactly.
 
+## Version 3
+
+Version 3 keeps components with area >= 400 px. It then keeps the 16 components with the highest mean dark contrast per image.
+Held-out PQ rose from 0.0963 to 0.1297 across 192 images and 307 annotator records.
+The output has 2,381 rows. Official score: pending.
+See [Version 3 validation](docs/validation.md#version-3) and [aggregate evidence](evidence/v3-local-validation.json).
+
 ## What we add
 
 A wide blur estimates local brightness. A small blur reduces image noise.
