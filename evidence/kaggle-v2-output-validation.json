@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "scope": "completed_version_root_output_content_validation",
+  "version_binding": "verified_against_supplied_trusted_receipt",
+  "receipt_authenticity_independently_verified": false,
+  "kernel_id": "prvsiyan/notebook24a4dce69e",
+  "version_number": 2,
+  "source_sha256": "2cd75d7a30b9b824167bd8a805e5687141e75e61faf573071627c1d94d34dd89",
+  "expected_identity": {
+    "id": "prvsiyan/notebook24a4dce69e",
+    "id_no": 140423171,
+    "title": "notebook24a4dce69e",
+    "code_file": "notebook24a4dce69e.ipynb"
+  },
+  "identity_binding": "exact_supplied_expected_identity",
+  "trusted_receipt_sha256": "f5626634a601eb8d9482e44a625f487a5614c8a3801dcc3e297e4232d05d0942",
+  "test_manifest_sha256": "ecc401e8cd1f3a6e3467877940126a788df32c3164b55b7925588ab5b847438e",
+  "processed_test_images": 180,
+  "represented_images": 180,
+  "zero_prediction_images": [],
+  "decoded_masks": 5316,
+  "foreground_pixels": 28764077,
+  "output_sha256": {
+    "submission.csv": "68a0d8675632f208386cf6ee91ec7c5cb6f1d5045f599ace7a36e9998dbcd924",
+    "inference-audit.csv": "34a9498cc477afec9a689d26ac6c057f6fc2c158a73d0796d5d7bb7d5313029c",
+    "submission-checks.json": "910a895c7adaa105fa3cf3b191ceeb4f7783c71f0e62e45f5ff1322cf4201d10",
+    "run-report.json": "a4a65cc9ee3e637f42f96b61d2d132b068e04327c475f13e12ee82ec804940f3",
+    "split-manifest.json": "ee6d4b98b6c3d022dbdc5313644d3ae4ee3a8a1a666fd9bf0db9ca3e8a4788e4",
+    "calibration-summary.csv": "72c27897cd8a02206f3efc594437ece55bc0fb35c111ac545f3673e366afe5e8",
+    "calibration-detail.csv": "d18b6c40468dd1c80df094d7c8b18951c5609a56e692b012732b250e6fb0b7bf",
+    "validation-summary.csv": "c1b6b687e4321ecae5d6e3a784873b16091770c75467f924abd378fed3b86b29",
+    "validation-detail.csv": "3d2ec6a338686d676047a1cdc169c564fea97f5f7cacfa25c16ae1974d2ac323"
+  },
+  "root_outputs_verified": [
+    "submission.csv",
+    "inference-audit.csv",
+    "submission-checks.json",
+    "run-report.json",
+    "split-manifest.json",
+    "calibration-summary.csv",
+    "calibration-detail.csv",
+    "validation-summary.csv",
+    "validation-detail.csv"
+  ],
+  "note": "Output validity is separate from competition scoring. This receipt validates the completed notebook artifacts, not a leaderboard score.",
+  "original_verification_sha256": "7ed57e77c6c53f9c65315e821596dd79cc1588e7f0a1ca0cf6fed2a7a4a556e1"
+}

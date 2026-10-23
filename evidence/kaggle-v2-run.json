@@ -1,0 +1,61 @@
+{
+  "notebook_url": "https://www.kaggle.com/code/prvsiyan/notebook24a4dce69e",
+  "identity": {
+    "id": "prvsiyan/notebook24a4dce69e",
+    "id_no": 140423171,
+    "title": "notebook24a4dce69e",
+    "code_file": "notebook24a4dce69e.ipynb"
+  },
+  "version_number": 2,
+  "run_status": "complete",
+  "run_status_observed_utc": "2026-10-23T17:36:03.725185+00:00",
+  "server_source_sha256": "2cd75d7a30b9b824167bd8a805e5687141e75e61faf573071627c1d94d34dd89",
+  "candidate_source_sha256": "a0d2ed63283691857c3af080474d772cd95099cdc303af72f29d1e52c0701038",
+  "cell_types_and_sources_equal": true,
+  "scope": "completed_Kaggle_run_and_local_heldout_metric_not_official_competition_score",
+  "run_report": {
+    "kind": "local_holdout_and_submission_artifact",
+    "official_score": null,
+    "selected_config": {
+      "name": "core_growth_050_130",
+      "low": 0.05,
+      "high": 0.13,
+      "blur_sigma": 18.0,
+      "denoise_sigma": 1.6,
+      "min_area": 200,
+      "min_core_area": 30,
+      "border": 24,
+      "closing_size": 3
+    },
+    "local_validation": [
+      {
+        "config": "fixed_threshold",
+        "pq": 0.06356608798040476,
+        "images": 16,
+        "annotator_records": 21
+      },
+      {
+        "config": "core_growth_050_130",
+        "pq": 0.08902624179349382,
+        "images": 16,
+        "annotator_records": 21
+      }
+    ],
+    "train_images_available": 707,
+    "test_images": 180,
+    "submission_rows": 5316,
+    "runtime_seconds": 375.652268073,
+    "annotation_sha256": "5da9e92b5a1a1947fd5d57adb6688269625c48ec1ef884daf2a01618c9ed54a1",
+    "submission_sha256": "68a0d8675632f208386cf6ee91ec7c5cb6f1d5045f599ace7a36e9998dbcd924",
+    "packages": {
+      "numpy": "2.1.3",
+      "pandas": "2.3.3",
+      "pycocotools": "2.0.11",
+      "matplotlib": "3.10.0"
+    }
+  },
+  "run_report_sha256": "a4a65cc9ee3e637f42f96b61d2d132b068e04327c475f13e12ee82ec804940f3",
+  "official_submission_status": "not_sent_at_capture",
+  "official_score": null,
+  "publication_boundary": "Aggregate metrics and hashes only. No competition data, masks, output CSV, or execution logs."
+}

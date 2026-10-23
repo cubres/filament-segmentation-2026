@@ -1,0 +1,13 @@
+{
+  "submission_id": "57568420",
+  "kernel_id": "prvsiyan/notebook24a4dce69e",
+  "notebook_version": 2,
+  "status": "PENDING",
+  "official_score": null,
+  "submission_route": "Kaggle notebook Submit to Competition menu",
+  "pending_ui_row": "notebook24a4dce69e - Version 2 Pending \u00b7 1m ago \u00b7 Solar Threads: original dark-core growth baseline; version 2; 180 images. Pipeline b640b617-4c4f-46e",
+  "snapshot_sha256": "63be18dabebc9b66f5537b9a18f4cdfac337aaf2fb127aa2318418e5cb024a21",
+  "checkpoint_recorded_utc": "2026-10-23T17:42:21.868339+00:00",
+  "submission_sha256": "68a0d8675632f208386cf6ee91ec7c5cb6f1d5045f599ace7a36e9998dbcd924",
+  "scope": "Historical pending-state observation. A completed result and native notebook score badge are still required."
+}

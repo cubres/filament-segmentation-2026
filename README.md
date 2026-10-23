@@ -9,8 +9,12 @@ An original CPU baseline for the [Filament Segmentation 2026 competition](https:
 Find each dark filament in a solar image. Give each filament its own mask.
 This project uses image pixels and the competition's training masks. It adds no outside labels or weights.
 
-**Status: a tested local baseline. No official competition score is claimed in this release.**
-The small local check below is not evidence of a high leaderboard rank.
+**Status: Version 2 completed. Submission 57568420 was accepted and was still pending at 17:49 UTC on 2026-10-23.**
+No official score or native notebook score badge has been verified.
+The held-out results below are not evidence of a leaderboard rank.
+
+Open the [public Kaggle notebook](https://www.kaggle.com/code/prvsiyan/notebook24a4dce69e).
+The server assigned this notebook identity. We preserve it exactly.
 
 ## What we add
 
@@ -32,7 +36,38 @@ flowchart LR
     F --> G[Submission file]
 ```
 
-## Local evidence
+## Completed Kaggle run
+
+Version 2 processed all 180 test images and exported 5,316 predicted instance masks.
+Its recorded runtime was 375.65 seconds, about 6.26 minutes.
+It used the competition data and a CPU baseline.
+
+| Method | Held-out PQ | Images | Annotator records |
+|---|---:|---:|---:|
+| Fixed threshold | 0.063566 | 16 | 21 |
+| Dark-core growth | 0.089026 | 16 | 21 |
+
+These values measure 16 held-out training images. They are not competition test scores.
+The selected setting came from 24 calibration images in separate calendar months.
+The completed run's notebook cells match the reviewed source exactly.
+
+![Held-out PQ is 0.063566 for the fixed threshold and 0.089026 for dark-core growth on 16 images.](assets/kaggle-v2-holdout.png)
+
+The [run evidence](evidence/kaggle-v2-run.json) records the notebook identity, version, source hashes, package versions, and submission-file hash.
+The [measured table](evidence/kaggle-v2-holdout.csv) supplies the chart.
+The output file and competition data are not redistributed here.
+
+## Submission and output checks
+
+The output validator decoded all 5,316 masks across all 180 test images.
+The [validation receipt](evidence/kaggle-v2-output-validation.json) records the exact version, source hash, output hashes, and scope.
+
+Submission **57568420** was accepted through Version 2's **Submit to Competition** menu.
+The [latest recorded status](evidence/kaggle-v2-submission-status-1749.json) is `PENDING`, with an empty official score.
+The 0.089026 held-out PQ above remains a training-data measurement.
+A completed competition score and native notebook score badge must be checked separately.
+
+## Historical local canary
 
 The canary uses four images to select a setting and four images from other months to check it.
 No validation image selects the setting. One test image checks the output format.
@@ -74,11 +109,16 @@ Open `notebook/solar-threads-honest-instance-segmentation.ipynb` in Kaggle.
 Join the competition and read its rules. Attach its official data.
 Run all cells with a CPU. Keep the saved outputs and their hashes.
 
+The `notebook/` folder preserves the original local draft and its planned identity.
+That planned identity was never published. Do not push its `kernel-metadata.json` to Kaggle.
+The live identity is `prvsiyan/notebook24a4dce69e`. Read its current server identity before any in-place update.
+
 The full notebook selects a setting on 24 images and checks it on 16 separate images.
 It then predicts every image in the current 180-image test release.
 The input checks stop if the expected data release changes.
 
-Submit from the completed notebook version's **Submit to Competition** menu.
+For a future result, submit from the completed notebook version's **Submit to Competition** menu.
+Do not repeat the pending Version 2 submission.
 Verify the completed submission row and native notebook score badge before claiming an official score.
 
 ## Limits and next tests

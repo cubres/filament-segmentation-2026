@@ -1,0 +1,17 @@
+{
+  "observed_at": "2026-10-23T17:49:04.195791+00:00",
+  "competition": "filament-segmentation-2026",
+  "account": "prvsiyan",
+  "submission_id": "57568420",
+  "file_name": "submission.csv",
+  "status": "PENDING",
+  "raw_score": "",
+  "total_bytes": 5080087,
+  "notebook_id": "prvsiyan/notebook24a4dce69e",
+  "notebook_version": 2,
+  "official_score": null,
+  "native_score_badge_verified": false,
+  "source_receipt_sha256": "bb82bca85b560cb08ff66b429f1072f40d009597ff80202be2bc31ee4aa9e7cb",
+  "submission_sha256": "68a0d8675632f208386cf6ee91ec7c5cb6f1d5045f599ace7a36e9998dbcd924",
+  "scope": "Exact pending official submission row. Held-out metrics are separate."
+}
