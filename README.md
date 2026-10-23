@@ -9,9 +9,9 @@ An original CPU baseline for the [Filament Segmentation 2026 competition](https:
 Find each dark filament in a solar image. Give each filament its own mask.
 This project uses image pixels and the competition's training masks. It adds no outside labels or weights.
 
-**Status: Version 2 completed. Submission 57568420 was accepted and was still pending at 17:49 UTC on 2026-10-23.**
-No official score or native notebook score badge has been verified.
-The held-out results below are not evidence of a leaderboard rank.
+**Official public score: 0.08. Submission 57568420 completed on 2026-10-23 and is linked to notebook Version 2.**
+The exact submission row and native notebook score badge were verified.
+This is a working baseline. No competitive rank is claimed.
 
 Open the [public Kaggle notebook](https://www.kaggle.com/code/prvsiyan/notebook24a4dce69e).
 The server assigned this notebook identity. We preserve it exactly.
@@ -63,9 +63,11 @@ The output validator decoded all 5,316 masks across all 180 test images.
 The [validation receipt](evidence/kaggle-v2-output-validation.json) records the exact version, source hash, output hashes, and scope.
 
 Submission **57568420** was accepted through Version 2's **Submit to Competition** menu.
-The [latest recorded status](evidence/kaggle-v2-submission-status-1749.json) is `PENDING`, with an empty official score.
+Its official status is now `COMPLETE`, with public score **0.08**.
+The [score receipt](evidence/official-score-57568420.json) binds the result to the exact version and output hash.
+It also records independent verification of the native notebook score badge.
 The 0.089026 held-out PQ above remains a training-data measurement.
-A completed competition score and native notebook score badge must be checked separately.
+The earlier [pending observation](evidence/kaggle-v2-submission-status-1749.json) remains in the history.
 
 ## Historical local canary
 
@@ -118,7 +120,7 @@ It then predicts every image in the current 180-image test release.
 The input checks stop if the expected data release changes.
 
 For a future result, submit from the completed notebook version's **Submit to Competition** menu.
-Do not repeat the pending Version 2 submission.
+Version 2 is already scored. Do not repeat its accepted submission.
 Verify the completed submission row and native notebook score badge before claiming an official score.
 
 ## Limits and next tests

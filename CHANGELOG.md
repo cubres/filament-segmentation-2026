@@ -2,6 +2,8 @@
 
 ## 2026-10-23
 
+- Verify completed official submission 57568420 with public score **0.08**, linked to Version 2 and its native score badge.
+- Keep the earlier pending-state receipts unchanged as history.
 - Complete public Kaggle notebook Version 2 over all 180 test images.
 - Record 5,316 predicted instance masks and a 375.65-second run.
 - Add the separate 16-image held-out result: PQ 0.089026 versus 0.063566 for the control.
@@ -16,4 +18,5 @@
 - Add synthetic contract checks and generated decorative artwork.
 - Publish source and aggregate evidence without competition data.
 
-The completed run and accepted submission are not an official score. The official score and native notebook badge remain unverified.
+The official public score is 0.08. The separate 16-image held-out PQ is 0.08902624179349382.
+This is a verified baseline, not a claim of a competitive rank.

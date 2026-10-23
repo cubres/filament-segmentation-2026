@@ -1,0 +1,30 @@
+{
+  "account": "prvsiyan",
+  "competition": "filament-segmentation-2026",
+  "notebook_id": "prvsiyan/notebook24a4dce69e",
+  "version": 2,
+  "output_file": "submission.csv",
+  "output_sha256": "68a0d8675632f208386cf6ee91ec7c5cb6f1d5045f599ace7a36e9998dbcd924",
+  "submission_id": "57568420",
+  "status": "COMPLETE",
+  "raw_score": "0.08",
+  "visible_badge_verified": true,
+  "official_score": 0.08,
+  "official_row_observed_at": "2026-10-23T17:55:28.044378+00:00",
+  "native_badge_observed_at": "2026-10-23T17:55:52.444210+00:00",
+  "notebook_url": "https://www.kaggle.com/code/prvsiyan/notebook24a4dce69e",
+  "official_row_binding_basis": "Accepted ledger receipt plus remote ID, account, filename, bytes and exact intent/hash description; API row does not expose notebook version.",
+  "ledger_official_row_evidence": "48d482a6847c3ba96493173dd4b9a30e1258140404f70badb818a47794b9b471",
+  "ledger_badge_evidence": "35378c23cd4a867990ea8b5a7a7836964d198631142a93e8b0573f8a238e76fe",
+  "official_row_file_sha256": "78caadf0d738d6b510c48874f70a64d7506269780d132a2ac89f8a95980491e5",
+  "badge_snapshot_file_sha256": "cc8962eedf63898193416a493a9ef6f4cfc79383a7cf843b2760e427990c056a",
+  "verified_summary_file_sha256": "7a5c5052d8f9fbbbc47346a353bc0689ef88afd88dcaa213193288a043c03fb7",
+  "score_precision": "Exact raw score string returned by Kaggle; no extra precision inferred.",
+  "scope": "Completed official public submission score, independently confirmed on the native notebook Version 2 score badge.",
+  "holdout_comparison": {
+    "scope": "separate training-data holdout",
+    "images": 16,
+    "selected_method_pq": 0.08902624179349382,
+    "baseline_pq": 0.06356608798040476
+  }
+}

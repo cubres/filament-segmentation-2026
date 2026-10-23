@@ -32,8 +32,16 @@ That check does not independently authenticate the receipt or establish a compet
 
 Submission 57568420 was accepted from the notebook's Version 2 menu.
 At 17:49 UTC on 2026-10-23, its [recorded status](../evidence/kaggle-v2-submission-status-1749.json) remained `PENDING`.
-The official score field was empty. No native notebook score badge has been verified.
-The accepted attempt must not be repeated while its outcome remains pending.
+That historical score field was empty.
+
+At 17:55:28 UTC, the exact submission row changed to `COMPLETE` with the raw public score `0.08`.
+At 17:55:52 UTC, the native notebook badge also showed `0.08` for Version 2.
+The [official-score receipt](../evidence/official-score-57568420.json) keeps both observation times and the output hash.
+It records the score exactly as Kaggle returned it. No extra decimal places are inferred.
+
+The official public score is **0.08**. The separate 16-image held-out PQ is **0.08902624179349382**.
+They use different data. Neither value establishes a competitive rank.
+The accepted Version 2 attempt must not be repeated.
 
 The earlier four-image canary below remains a separate historical check.
 Its sample differs, so do not interpret the two PQ tables as an improvement over time.
@@ -82,5 +90,5 @@ The host source is not redistributed here, so it is not part of the seven public
 
 Four held-out images are too few for a strong performance claim.
 The local check does not establish generalization, competition rank, or a complete valid submission.
-The full Kaggle run is complete. Its notebook-linked submission was accepted and remains pending in the latest recorded check.
-An official result needs the exact completed submission, notebook version, file, and visible score badge.
+The full Kaggle run is complete. Its notebook-linked submission completed with official public score 0.08.
+The exact completed submission, notebook version, file, and native score badge were verified.
