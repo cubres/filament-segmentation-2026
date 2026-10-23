@@ -1,0 +1,26 @@
+{
+  "calibration": [
+    "20140609195854Bh.jpeg",
+    "20141106195854Bh.jpeg",
+    "20150731082034Lh.jpeg",
+    "20171011224130Lh.jpeg"
+  ],
+  "validation": [
+    "20151107133734Ch.jpeg",
+    "20120414175914Mh.jpeg",
+    "20201228202430Ch.jpeg",
+    "20170125133734Ch.jpeg"
+  ],
+  "split_unit": "calendar_month",
+  "selected_without_validation": {
+    "name": "core_growth_050_130",
+    "low": 0.05,
+    "high": 0.13,
+    "blur_sigma": 18.0,
+    "denoise_sigma": 1.6,
+    "min_area": 200,
+    "min_core_area": 30,
+    "border": 24,
+    "closing_size": 3
+  }
+}

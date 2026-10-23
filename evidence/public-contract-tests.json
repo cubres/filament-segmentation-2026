@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "test_count": 7,
+  "scope": "synthetic_data_contract_tests",
+  "command": "python -m unittest discover -s tests -v",
+  "competition_data_used": false,
+  "source_sha256": "5258c96830f9b52bbbc22b04afa52af70716a3690e6c1ba28ac31efe07ef7b79"
+}

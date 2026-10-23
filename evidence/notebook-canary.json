@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "scope": "all_code_cells_with_explicit_bounded_data_adapters",
+  "full_competition_run": false,
+  "code_cells_executed": [
+    2,
+    4,
+    5,
+    7,
+    9,
+    11,
+    13
+  ],
+  "canonical_notebook_unchanged": true,
+  "notebook_sha256": "8687be5af004c996e52043d1ffd35c3fe831add8312972a35f8fbf6c7a5c164d",
+  "runtime_seconds": 8.556394582999928,
+  "official_score": null,
+  "rendered_plot_count": 6,
+  "note": "The six plots were rendered locally. Competition image panels are not redistributed here."
+}

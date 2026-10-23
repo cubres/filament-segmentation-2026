@@ -1,0 +1,28 @@
+{
+  "sha256": "ff68571d36aa941a2f517d46f4365c1c635733d94811b00b598d77f903805ccf",
+  "bytes": 1892320,
+  "width": 2048,
+  "height": 768,
+  "notebook_version": 1,
+  "decorative_only": true,
+  "alt": "A small sun researcher points to dark filaments on a warm solar disk.",
+  "requested_model": "gpt-6-luna",
+  "observed_models": [
+    {
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "timestamp": "2026-10-23T15:33:15.278Z"
+    }
+  ],
+  "image_generation_calls": 1,
+  "native_subscription_only": true,
+  "visual_review": {
+    "passed": true,
+    "subject": true,
+    "no_text_axes_or_score": true,
+    "review_method": "view_image"
+  },
+  "generated_at": "2026-10-23T15:34:28.893250+00:00",
+  "path": "assets/solar-filament-hero.png",
+  "prompt": "A cute tiny sun researcher in a little lab coat traces dark solar filaments on a warm cream solar disk. Soft coral and charcoal palette. Clean academic illustration. No text, labels, axes, measurements or logos."
+}

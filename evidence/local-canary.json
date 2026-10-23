@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "kind": "bounded_local_canary_not_full_test_submission",
+  "calibration_images": 4,
+  "heldout_images": 4,
+  "test_images": 1,
+  "selected_config": {
+    "name": "core_growth_050_130",
+    "low": 0.05,
+    "high": 0.13,
+    "blur_sigma": 18.0,
+    "denoise_sigma": 1.6,
+    "min_area": 200,
+    "min_core_area": 30,
+    "border": 24,
+    "closing_size": 3
+  },
+  "validation": [
+    {
+      "config": "fixed_threshold",
+      "pq": 0.08091360308482781,
+      "images": 4,
+      "annotator_records": 4
+    },
+    {
+      "config": "core_growth_050_130",
+      "pq": 0.10861536269435011,
+      "images": 4,
+      "annotator_records": 4
+    }
+  ],
+  "official_score": null,
+  "elapsed_s": 4.00417408300018,
+  "rows": 50,
+  "source_sha256": "5258c96830f9b52bbbc22b04afa52af70716a3690e6c1ba28ac31efe07ef7b79"
+}

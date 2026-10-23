@@ -1,0 +1,16 @@
+{
+  "id": "prvsiyan/solar-threads-honest-instance-segmentation",
+  "title": "Solar Threads | Honest Instance Segmentation",
+  "code_file": "solar-threads-honest-instance-segmentation.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "competition_sources": [
+    "filament-segmentation-2026"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": []
+}
